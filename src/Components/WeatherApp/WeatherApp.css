@@ -1,0 +1,93 @@
+
+.container {
+    width: 100%;
+    max-width: 607px;
+    height: auto;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    background-image: linear-gradient();
+}
+
+.top-bar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.top-bar input {
+    width: 100%;
+    max-width: 362px;
+    height: 50px;
+    background-color: #ebfffc;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.search-icon {
+    width: 50px;
+    height: 50px;
+    background: #ebfffc;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 30px;
+}
+
+.weather-temp {
+    font-size: 80px;
+}
+
+.weather-location {
+    font-size: 40px;
+}
+
+.data-container {
+    margin: 30px;
+    display: flex;
+    flex-direction: row; /* Set flex direction to row */
+    justify-content: space-between; /* Add space between elements */
+}
+
+.element {
+    display: flex; /* Set display to flex */
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.data {
+    font-size: 24px;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.icon {
+    margin-top: 10px;
+}
+
+/* Media Queries for Tablet and Mobile Views */
+@media only screen and (max-width: 768px) {
+    .data-container {
+        flex-direction: column; /* Set flex direction to column for mobile views */
+    }
+
+    .element {
+        flex-direction: column; /* Set flex direction to column for mobile views */
+        align-items: center; /* Center items horizontally for mobile views */
+    }
+}
+
